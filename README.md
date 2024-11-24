@@ -72,12 +72,14 @@ or
 
 
 It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple Step .
+![Screenshot (53)](https://github.com/user-attachments/assets/fa89f26d-3b03-4a05-adb0-625690d76d42)
 
 ### Fig 3: Setting Multi-step simulation
 
 Select Multiple Step and then select “Create cds.lib File” as shown in below figure 
 
 Click the cds.lib file and save the file by clicking on Save option 
+![image](https://github.com/user-attachments/assets/9a8ec23c-1d8d-4fd2-b2e7-7cbd15ff6f8f)
 
 ### Fig 4:cds.lib file Creation
 
@@ -100,6 +102,7 @@ Left side you can see the HDL files. Right side of the window has worklib and sn
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation .
 
 To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation. 
+![image](https://github.com/user-attachments/assets/101c2d9d-bac5-4150-9865-8e9abef8757a)
 
 ### Fig 6: Nclaunch Window
 
@@ -124,6 +127,7 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 Left side select the file and in Tools : launch verilog compiler with current selection will get enable. Click it to compile the code 
 
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation 
+![image](https://github.com/user-attachments/assets/4ba64f45-baae-4cb0-ad2a-1d7908d985cd)
 
 ### Fig 7: Compiled database in worklib
 
@@ -158,6 +162,7 @@ Outputs: Elaborate database updated in mapped library if successful, generates r
 5.It also establishes net connectivity and prepares all of this for simulation
 
 After elaboration the file will come under snapshot. Select the test bench and simulate it.
+![Screenshot 2024-11-24 145912](https://github.com/user-attachments/assets/c036e669-db5d-4f6e-8a98-a183ff6d2a70)
 
 ## Fig 8: Elaboration Launch Option
 
@@ -172,12 +177,14 @@ Outputs: Simulation log file, waveforms for debugging
 Simulation allow to dump design and test bench signals into a waveform 
 
 Steps for simulation – Run the simulation command with simulator options
+![Screenshot (39)](https://github.com/user-attachments/assets/960850bf-af19-44d0-ba28-531a2bd11df5)
 
 ## Fig 9: Design Browser window for simulation
+![Screenshot (40)](https://github.com/user-attachments/assets/992c523c-438a-4eec-8c6d-eada871e23e0)
 
 ## Fig 10:Simulation Waveform Window
 
-## Fig 11:Simulation Waveform Window
+
 
 ### Result
 
